@@ -1,0 +1,12 @@
+Initial working prototype of Foras
+
+- Bootstrapped project with Swift Package Manager
+- Implemented ForasVM with support for dynamic word registration
+- Added stack helpers for type-safe stack access
+- Defined core words: + . dup
+- Words are implemented as Sendable structs
+- Auto-generated word registry with build-time script
+- Evaluates .fs files using a tokenizer + VM dispatcher
+- Designed architecture for future LLVM/IR, GPU, fiber support
+
+Foras is a modern, multi-threaded, object-oriented take on Forth, with an emphasis on clean structure, safety, and forward compatibility.

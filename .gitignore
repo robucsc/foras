@@ -1,0 +1,28 @@
+# macOS junk
+.DS_Store
+
+# SwiftPM build products and local artifacts
+/.build
+/Packages
+.swiftpm/
+
+# Xcode-related noise
+DerivedData/
+xcuserdata/
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserstate
+
+# SwiftPM registry cache (optional)
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+# Auth tokens / creds (if ever used for CI)
+.netrc
+
+# VS Code / Codium (if using)
+.vscode/
+
+# Logs and crash reports
+*.log
+*.crash
