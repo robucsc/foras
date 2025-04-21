@@ -10,7 +10,6 @@ public class ForasVM {
         dictionary[word.name] = word
     }
 
-    @MainActor
     public init() {
         allCoreWords.forEach(register)
         print("Registered words:", dictionary.keys.sorted()) 
