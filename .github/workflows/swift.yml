@@ -17,7 +17,7 @@ jobs:
     - name: Set up Swift
       uses: swift-actions/setup-swift@v1
       with:
-        swift-version: "5.9"  # or "6.0" if you're already using Swift 6 locally
+        swift-version: "5.9"  # using Swift 6 locally, but github is at 5.9
 
     - name: Build project
       run: swift build
